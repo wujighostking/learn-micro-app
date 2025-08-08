@@ -1,0 +1,14 @@
+{
+  "name": "play",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.13.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  }
+}
