@@ -5,7 +5,7 @@
     // "rootDir": "./src",
     // "outDir": "./dist",
     "baseUrl": ".",
-
+    "lib": ["esnext","DOM"],
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "esnext",

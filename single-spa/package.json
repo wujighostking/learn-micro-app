@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "description": "",
-  "main": "./dist/single-spa.umd.cjs",
-  "module": "./dist/single-spa.js",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/single-spa.js",
-      "require": "./dist/single-spa.umd.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
     }
   },
   "files": [
@@ -24,5 +24,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.0"
+  "packageManager": "pnpm@10.13.0",
+  "devDependencies": {
+    "vite-plugin-dts": "^5.1.0"
+  }
 }

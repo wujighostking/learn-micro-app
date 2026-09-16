@@ -53,7 +53,7 @@ export function getAppChanges() {
       }
 
       case MOUNTED: {
-        if (appShouldBeActive) {
+        if (!appShouldBeActive) {
           appsToUnmount.push(app)
         }
         break

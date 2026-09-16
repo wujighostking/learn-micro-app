@@ -5,4 +5,8 @@ export default antfu({
   unocss: true,
   vue: true,
   react: true,
+}, {
+  rules: {
+    'no-console': 'warn',
+  },
 })
