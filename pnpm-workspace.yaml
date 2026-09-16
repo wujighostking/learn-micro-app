@@ -1,4 +1,5 @@
 packages:
+  - single-spa
   - qiankun
   - wujie
   - microApp

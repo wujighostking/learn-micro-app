@@ -1,2 +1,5 @@
 .idea
 node_modules
+.turbo
+turbo-build.log
+dist

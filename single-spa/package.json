@@ -1,0 +1,28 @@
+{
+  "name": "single-spa",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./dist/single-spa.umd.cjs",
+  "module": "./dist/single-spa.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/single-spa.js",
+      "require": "./dist/single-spa.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "lint": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.0"
+}
